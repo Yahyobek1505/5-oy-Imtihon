@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: floralwhite;
+}
+.container{
+  background-color: #fff; 
+}
+.mode img{
+  width: 30px;
+  height: 30px;
+}
+.flag img{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+.head{
+  background-color: #fff; 
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+.searchinput{
+  position: relative;
+}
+.searchsvg{
+  position: absolute;
+  top: 9.5px;
+  right: 50px;
+  cursor: pointer;
+}
+.card img{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.country{
+  font-size: 22px;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.population{
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.region{
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.capital{
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.card{
+  width: 284px;
+  height: 336px;
+  border-radius: 8px;
+}
+.card h4{
+font-weight: 300;
+}
+.card span{
+  font-weight: 600;
+  color: rgb(47, 47, 47);
+}
+form{
+  margin-left: 50px;
+}
+@media only screen and (max-width: 700px) {
+  #form{
+    display: block;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    max-width: 700px;
+   }
+   #search{
+    width: 300px;
+   }
+   #type{
+    width: 300px;
+   }
+
+}
