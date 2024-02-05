@@ -9,10 +9,6 @@ const regionOceania = document.querySelector("#regionOceania");
 const infoCard = document.querySelector(".card");
 const mode = document.querySelector(".mode");
 
-mode && mode.addEventListener('click', function () {
- let darkMode = document.body;
- darkMode.classList.toggle("dark-mode")
-})
 document.addEventListener("DOMContentLoaded", function () {
   fetch("https://frontend-mentor-apis-6efy.onrender.com/countries?limit=50", {
     method: "GET",
