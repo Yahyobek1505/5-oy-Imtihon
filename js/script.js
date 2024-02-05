@@ -10,7 +10,7 @@ const infoCard = document.querySelector(".card");
 const mode = document.querySelector(".mode");
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("https://frontend-mentor-apis-6efy.onrender.com/countries?limit=50", {
+  fetch("https://frontend-mentor-apis-6efy.onrender.com/countries?limit=150", {
     method: "GET",
   })
     .then((res) => res.json())
